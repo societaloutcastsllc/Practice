@@ -1,0 +1,51 @@
+#Jun 30, 2026, 1:51 AM - My first line of code written
+print("Hellow World!")
+    # --------------------------------1
+age = 18
+if age >= 18:
+        print("Let's do this!")
+else:
+        print("Sorry, you need to be 18 or older.")
+    # -------------------------------------------------2
+item_price = 25
+shipping_fee = 5
+
+total_price = item_price - shipping_fee
+
+print("Begin countdown:")
+print(total_price)
+    # -------------------------------------------------3
+countdown = 19
+while countdown > -1:
+        print(countdown)
+        # We want to decrease the countdown by 1 each time
+        countdown = countdown - 1
+print("Blastoff!")
+#----------------------------------------------------------4
+grocery_list = ["Apples", "Bananas", "Oats", "Milk"] 
+
+# There are 4 items, so let's grab the 4th one!
+last_item = grocery_list[3]
+other_item= grocery_list[0]
+
+print("Don't forget to buy " + last_item)
+print ("Also don't forget " + other_item)
+#--------------------------------------------------------------5
+temperature = 95
+
+if temperature > 90:
+    print("It's scorching outside!")
+
+print("Make sure to stay hydrated.")  # This line is supposed to run no matter what
+#-------------------------------------------------------------------------------------6
+subtotal = 50
+
+if subtotal > 100:
+    discount = subtotal * 0.10
+    total = subtotal - discount
+else:
+    total = subtotal
+
+# We want to print the final total here
+print("Your final total is:")
+print(total)
